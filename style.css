@@ -6,15 +6,21 @@
         border: 0;
     }
     
-    body {
-        font-family: "Poppins", sans-serif;
-        margin: 0;
-        background-image: url('rubics.jpg');
+    html {
+        background: url('rubics.jpg') no-repeat center fixed;
         background-size: cover;
     }
     
-    h1,
-    p {
+    body {
+        font-family: "Poppins", sans-serif;
+    }
+    
+    main {
+        margin: 10px;
+    }
+    
+    header>h1,
+    main>p {
         margin-left: 10%;
         margin-top: 50px;
     }
@@ -26,4 +32,19 @@
     
     h1 {
         font-size: 60px;
+    }
+    
+    hr {
+        width: 1200px;
+        border-width: 5px solid #0c0c0c;
+    }
+    
+    footer {
+        position: relative;
+        margin-left: 100px;
+        margin-top: 460px;
+    }
+    
+    footer>p {
+        padding-left: 50px;
     }
