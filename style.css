@@ -1,50 +1,97 @@
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-    * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        border: 0;
-    }
-    
-    html {
-        background: url('rubics.jpg') no-repeat center fixed;
-        background-size: cover;
-    }
-    
-    body {
-        font-family: "Poppins", sans-serif;
-    }
-    
-    main {
-        margin: 10px;
-    }
-    
-    header>h1,
-    main>p {
-        margin-left: 10%;
-        margin-top: 50px;
-    }
-    
-    p {
-        font-family: "Poppins", sans-serif;
-        font-size: 25px;
-    }
-    
-    h1 {
-        font-size: 60px;
-    }
-    
-    hr {
-        width: 1200px;
-        border-width: 5px solid #0c0c0c;
-    }
-    
-    footer {
-        position: relative;
-        margin-left: 100px;
-        margin-top: 460px;
-    }
-    
-    footer>p {
-        padding-left: 50px;
-    }
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.main-text,
+.footer {
+    margin: 5px;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+}
+
+.container>div {
+    flex: 1;
+}
+
+.image,
+.home,
+.about,
+.resources {
+    padding: 5px;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.image {
+    background-color: #004D40;
+}
+
+.home {
+    background-color: #00695C;
+}
+
+.about {
+    background-color: #00796B;
+}
+
+.resources {
+    background-color: #00897B;
+}
+
+.div1 {
+    background-color: #009688;
+}
+
+.div2 {
+    background-color: #26A69A;
+}
+
+.div3 {
+    background-color: #4DB6AC;
+}
+
+.div4 {
+    background-color: #80CBC4;
+}
+
+.div5 {
+    background-color: #B2DFDB;
+}
+
+.search {
+    margin: 0;
+    padding: 0;
+    background-color: #dbf1f0;
+}
+
+.container>.nav-right {
+    flex: 3;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.btn-container {
+    background-color: #ecf1f1;
+}
+
+.nav-right>div {
+    flex: 1;
+}
+
+.btn {
+    padding: 5px;
+    font-size: 24px;
+    line-height: 25px;
+}
