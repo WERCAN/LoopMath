@@ -16,6 +16,7 @@ body {
     grid-template-columns: 1fr 2fr;
     grid-gap: 7px;
     margin-left: 25%;
+    background-color: rgb(250, 228, 156);
 }
 
 .numbers {
